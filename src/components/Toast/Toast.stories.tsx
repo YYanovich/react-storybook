@@ -1,6 +1,6 @@
 import type { Meta } from "@storybook/react";
-import { useState } from "react";
-import { Toast } from "./Toast"; 
+import React, { useState } from "react";
+import { Toast } from "./Toast";
 
 const ToastManager = () => {
   const [activeToast, setActiveToast] = useState<

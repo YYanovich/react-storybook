@@ -23,6 +23,16 @@ const config: StorybookConfig = {
   "framework": {
     "name": getAbsolutePath('@storybook/react-vite'),
     "options": {}
+  },
+  async viteFinal(config) {
+    // Примусово використовуємо одну версію React
+    config.resolve = config.resolve || {};
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      react: require.resolve('react'),
+      'react-dom': require.resolve('react-dom'),
+    };
+    return config;
   }
 };
 export default config;

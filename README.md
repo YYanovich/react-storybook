@@ -72,7 +72,7 @@ A notification component that appears at the corner of the screen to provide fee
 | ![alt text](image.png) |  ![alt text](image-1.png)| ![alt text](image-2.png)
 
 
-### 3. Sidebar Menu (In Progress)
+### 3. Sidebar Menu
 
 A collapsible navigation menu that slides in from the side.
 - Supports nested menu items.
@@ -82,7 +82,7 @@ A collapsible navigation menu that slides in from the side.
 
 | Closed State | Open State (2-level nesting) |
 | :----------: | :--------------------------: |
-|  |  |
+|  | ![alt text](image-3.png) | ![alt text](image-4.png)
 
 
 ## Tech Stack
