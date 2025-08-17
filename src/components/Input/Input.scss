@@ -1,0 +1,42 @@
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    padding-right: 60px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+  }
+
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+    padding: 5px;
+
+    &.eye-icon {
+      right: 40px;
+    }
+
+    &.clear-icon {
+      right: 10px;
+      font-size: 14px;
+    }
+  }
+}
