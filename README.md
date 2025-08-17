@@ -58,7 +58,7 @@ A versatile `Input` component with the following features:
 | ![alt text](public/image-2.png) | ![alt text](public/image-3.png) |
 
 
-### 2. Toast (In Progress)
+### 2. Toast
 
 A notification component that appears at the corner of the screen to provide feedback.
 - Supports different types (`success`, `error`, `info`).
@@ -67,9 +67,9 @@ A notification component that appears at the corner of the screen to provide fee
 
 **Screenshots:**
 
-| Success Toast | Error Toast |
-| :-----------: | :---------: |
-|  |  |
+| Success Toast | Error Toast | Info Toast  |
+| :-----------: | :---------: | :---------: |
+| ![alt text](image.png) |  ![alt text](image-1.png)| ![alt text](image-2.png)
 
 
 ### 3. Sidebar Menu (In Progress)
