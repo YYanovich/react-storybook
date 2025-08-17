@@ -82,7 +82,7 @@ A collapsible navigation menu that slides in from the side.
 
 | Closed State | Open State (2-level nesting) |
 | :----------: | :--------------------------: |
-|  | ![alt text](public/image-7.png) | ![alt text](public/image-8.png)
+| ![alt text](public/image-7.png)  | ![alt text](public/image-8.png)
 
 
 ## Tech Stack
